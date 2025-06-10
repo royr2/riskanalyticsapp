@@ -1,0 +1,31 @@
+Package: ml-model-builder
+Type: Application
+Title: ML Model Builder Shiny Application
+Version: 0.1.0
+Author: Your Name
+Maintainer: Your Name <your.email@example.com>
+Description: A Shiny application for building, validating, and documenting machine learning models. It allows users to upload data, preprocess it, select features, choose models, and evaluate performance.
+License: MIT
+Imports:
+    shiny,
+    shinydashboard,
+    dplyr,
+    ggplot2,
+    caret,
+    randomForest,
+    e1071,
+    glmnet,
+    rpart,
+    rpart.plot,
+    testthat,
+    DT,
+    tidyverse,
+    plotly,
+    corrplot,
+    car,
+    shinyjs
+Suggests:
+    knitr,
+    rmarkdown
+Encoding: UTF-8
+LazyData: true
